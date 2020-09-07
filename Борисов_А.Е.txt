@@ -1,1 +1,24 @@
 Отчет по лаб. раб. № 1. Борисов А. Е.
+1.	Настройка Git
+	•Установил имя и электронную почту; 
+		Использовал команды: git config --global user.name 
+			   	    git config --global user.email
+	•Задал параметры установки окончаний строк;
+		Использовал команды: git config --global core.autocrlf true
+				    git config --global core.safecrlf warn
+	•Установил отображение unicode
+		Использовал команду: git config --global core.quotepath off
+
+
+	•Создание каталога для выполнения лаб.раб.; создание текстового файла отчета; инициализация git; индексация.
+		Использовал команды: mkdir lab_1 // создание каталога
+				     cd lab_1  // открытие 
+				     touch Борисов_А.Е.txt //создание файла
+				     git init //инициализация
+				     git add Борисов_А.Е.txt // индексация
+	• Создание коммита 
+		Использовал команду: git commit-m "First Commit"
+	
+
+ 
+	
